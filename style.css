@@ -1,0 +1,233 @@
+@import url(https://www.cognizant.com/etc/designs/cognizant_foundation_dotcom_new/Cognizant_sans_font_clientlib.min.20ba39e99e5e3a95f02f4c6537997e3c.css);
+
+:root {
+  --ac-colour: #0033a1;
+  --otr-color: #00b140;
+}
+
+/* Navbar and Off Canvas Section */
+
+.btn_nav {
+  font-size: 1.4rem;
+}
+
+.a_oc {
+  font-size: 20px;
+  color: white;
+  padding: 0px 50px 0px 0px;
+}
+
+.btn_nav:hover {
+  color: white;
+  background-color: #0033a1;
+}
+.container-fluid1 {
+  background-color: #e6e6e6;
+  padding: 3rem 3rem;
+}
+.container2 {
+  background-color: #e6e6e6;
+}
+.navbar-toggler {
+  border: none;
+}
+
+.btn_oc {
+  font-size: 20px;
+  color: white;
+  padding: 10px 25px 10px 0px;
+}
+
+.a_oc_h {
+  font-size: 20px;
+  color: white;
+  padding: 30px 50px 0px 0px;
+}
+
+.offcanvas {
+  width: 240px;
+  background-color: #0033a1;
+}
+
+/* Navbar and Off Canvas Section End */
+
+/* Carousel Section */
+
+.ch,
+.chh {
+  color: white;
+}
+
+.btn_c,
+.btn_c:hover {
+  font-weight: bolder;
+  font-size: 15px;
+  color: white;
+  background-color: #00b140;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  height: 400px;
+}
+
+/* Carousel Section End */
+
+/* Quote Section */
+
+.quote {
+  color: #0033a1;
+}
+
+.quote {
+  margin-top: 2.8rem;
+  margin-bottom: 2.8rem;
+  font-size: 32px;
+  line-height: 4rem;
+}
+
+/* Quote Section End */
+
+/* Horizantal Card Section */
+
+.ca_h,
+.ca_p {
+  color: white;
+}
+
+.imgg {
+  object-fit: cover;
+}
+
+.ca-b {
+  padding: 5%;
+}
+
+.card-img-overlay {
+  padding: 10px 10px;
+  height: 50%;
+  width: 50%;
+  border-radius: 20px;
+}
+
+/* .card-img-overlay {
+  padding: 0;
+} */
+
+/* Horzontal Card Section End */
+
+/* Card Grid Section */
+
+.card {
+  display: flex;
+
+  margin: auto;
+}
+
+.card-title {
+  margin: 0;
+}
+
+.new-img {
+  position: relative;
+}
+
+.card-img-overlay-1 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.top-text {
+  font-weight: bold;
+
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+/* Card Grid Section End */
+.card-body row {
+  padding-left: 30px;
+  margin-left: 30px;
+  padding: 30px;
+}
+span {
+  display: inline-block;
+  border-bottom: 1px solid white;
+  padding-bottom: 3px;
+}
+
+/* Three Vertical Card Section */
+
+.btn_ca {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #00b140;
+}
+
+/* Three Vertical Card Section End */
+.text-right {
+  float: right;
+  object-fit: unset;
+}
+/* Footer Section */
+
+.foot li a {
+  color: #333333;
+  padding: 0%;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+
+.foot li {
+  list-style-type: none;
+}
+
+.foot h5 {
+  padding-top: 5px;
+}
+
+.foot li a:hover {
+  color: #00b140;
+}
+
+/* Footer Section End */
+.cell bg-white {
+  display: flex;
+}
+
+.column1 {
+  float: left;
+  max-width: max-content;
+  /* width: 100%; */
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  padding: 20px;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  /* this adds the "card" effect */
+  text-align: center;
+  width: 50px;
+  background-color: #f1f1f1;
+}
+
+.cards {
+  padding: 40px;
+}
